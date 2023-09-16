@@ -1,0 +1,54 @@
+/* App.css */
+
+/* Center align text */
+.App {
+  text-align: center;
+}
+
+/* Background image with opacity */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: rgb(3, 2, 2);
+  background-image: url('./newpic.jpg'); /* Use ./ to indicate the current directory */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  opacity: 0.8; /* Adjust opacity as needed (0.8 means 80% opacity) */
+}
+
+/* Style the search box */
+input[type="text"] {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Adjust font size */
+}
+
+/* Style the search button */
+button {
+  background-color: #61dafb; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding for spacing */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Location text color and size */
+p.location {
+  color: black; /* Change text color to black */
+  font-size: 32px; /* Increase font size for location */
+}
+
+/* Temperature and condition text color and size */
+p.temperature, p.condition, p.description {
+  color: black; /* Change text color to black */
+  font-size: 28px; /* Increase font size for temperature, condition, and description */
+}
+
+
