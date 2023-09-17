@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+
+Here's the preview of my weather app deployed with netlify -> https://weatherapp01react02abhishek.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
